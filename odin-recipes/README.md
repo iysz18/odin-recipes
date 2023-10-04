@@ -1,2 +1,0 @@
-# odin-recipes\
- This repository contains a website that I've built as a project exercise from 'The Odin Project" (www.theodinproject.com). It's a collection of recipes and built with html only, no css or javascript.
