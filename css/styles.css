@@ -36,3 +36,32 @@
     color: #faf9f9;
     text-align: center;
 }
+
+.bottom-box {
+    /* background formation */
+    background-color: #EAD7BB;    
+    /* display type & padding formation */
+    padding: 100px 0px;
+    /* border formation */
+    border-radius: 0px 0px 7px 7px;
+}
+
+.selector-recipe {
+    /* font formation */
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: #113946;
+    text-align: center;
+}
+
+img {
+    /* display type, margin & padding formation*/
+    width: 568px;
+    height: 312px;
+    display: inline-block;
+    margin-left: 40px;
+    /* border formation & applying a radius */
+    border: #113946 solid 5px;
+    border-radius: 10px;
+}
+
