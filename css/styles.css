@@ -1,16 +1,38 @@
 /* Adding css styles with styles.css from ./css/styles.css */
 
-.title-odin-recipe {
-    /* font & formation*/
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
-    font-weight: 800;
+.upper-box {
+    /* background formation */
+    background-color: #113946;
+    /* display type & padding formation */
+    padding: 200px 0px;
+    /* border formation */
+    border-radius: 7px 7px 0px 0px;
+}
+
+.upper-box-content {
+    /* font formation */
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
     text-align: center;
-    /* border */
-    border: black solid 5px;
-    border-radius: 10px;
-    /* margin & padding */
-    margin-left: 700px;
-    margin-right: 700px ;
-    padding: 15px 60px;
+    font-weight: 900;
+    color: #FFF2D8;
+    /* display type, border, margin & padding formation*/
+    border: solid #FFF2D8 6px;
+    margin: 0 705px;
+    padding: 50px;
+}
+
+.middle-box {
+    /* background formation */
+    background-color: #BCA37F;
+    /* display type, border, margin & padding formation */
+    padding: 10px 30px;
+}
+
+.disclamer-para {
+    /* font formation */
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #FFF2D8;
+    text-align: center;
 }
