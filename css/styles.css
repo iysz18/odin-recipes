@@ -18,7 +18,7 @@
     color: #FFF2D8;
     /* display type, border, margin & padding formation*/
     border: solid #FFF2D8 6px;
-    margin: 0 705px;
+    margin: 0 700px;
     padding: 50px;
 }
 
@@ -37,11 +37,11 @@
     text-align: center;
 }
 
-.bottom-box {
+.recipe-box {
     /* background formation */
     background-color: #EAD7BB;    
     /* display type & padding formation */
-    padding: 100px 0px;
+    padding: 45px 0px;
     /* border formation */
     border-radius: 0px 0px 7px 7px;
 }
@@ -63,5 +63,9 @@ img {
     /* border formation & applying a radius */
     border: #113946 solid 5px;
     border-radius: 10px;
+}
+
+.bottom-box-about {
+/* add navigator with several boxes like [About] [GitHub] */
 }
 
