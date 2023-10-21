@@ -1,71 +1,32 @@
-/* Adding css styles with styles.css from ./css/styles.css */
+/* Adding css styles to the homepage and to each recipe page */
 
-.upper-box {
-    /* background formation */
-    background-color: #113946;
-    /* display type & padding formation */
-    padding: 150px 0px;
-    /* border formation */
-    border-radius: 7px 7px 0px 0px;
-}
+/* Below are the css styling for the homepage */
 
-.upper-box-content {
-    /* font formation */
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 50px;
+.title-homepage {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    font-weight: 900;
-    color: #FFF2D8;
-    /* display type, border, margin & padding formation*/
-    border: solid #FFF2D8 6px;
-    margin: 0 700px;
-    padding: 50px;
+    border: 10px solid black;
+    margin: 40px 700px 100px 700px;
 }
 
-.middle-box {
-    /* background formation */
-    background-color: #BCA37F;
-    /* display type, border, margin & padding formation */
-    padding: 10px 30px;
-}
-
-.disclamer-para {
-    /* font formation */
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
+.description {
     font-size: 30px;
-    color: #faf9f9;
-    text-align: center;
-}
-
-.recipe-box {
-    /* background formation */
-    background-color: #EAD7BB;    
-    /* display type & padding formation */
-    padding: 45px 0px;
-    /* border formation */
-    border-radius: 0px 0px 7px 7px;
-}
-
-.selector-recipe {
-    /* font formation */
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 40px;
-    color: #113946;
+    font-weight: bold;
     text-align: center;
 }
 
 img {
-    /* display type, margin & padding formation*/
-    width: 568px;
-    height: 312px;
-    display: inline-block;
-    margin-left: 40px;
-    /* border formation & applying a radius */
-    border: #113946 solid 5px;
+    margin: 40px 135px;
+    height: 500px;
+    width: auto;
+    border: 3px solid black;
     border-radius: 10px;
 }
 
-.bottom-box-about {
-/* add navigator with several boxes like [About] [GitHub] */
+.links {
+    display: block;
+    font-size: 30px;
 }
 
+/* End of the css styling for the homepage *
